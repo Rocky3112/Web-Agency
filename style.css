@@ -236,6 +236,45 @@ img {
   align-items: center;
   text-align: center;
 }
+/* form part */
+.formTitle{
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+.formContainer{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
+
+.inputAll {
+  width: 600px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgba(255, 217, 0, 0.823);
+  border: none;
+  color: white;
+  padding: 7px 35px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+  
+  
+}
+.btn{
+  text-align: center;
+}
 
 /* Responsive part */
+/* aas */
