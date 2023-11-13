@@ -9,7 +9,8 @@ body {
 
 /* Nav Bar styles */
 .heading {
-  background: linear-gradient(rgba(0, 0, 0, 0.689), rgba(0, 0, 0, 0.561)), url("./images/headerBG.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.689), rgba(0, 0, 0, 0.561)),
+    url("./images/headerBG.jpg");
 
   padding: 30px;
   height: 85vh;
@@ -34,25 +35,24 @@ body {
   flex-wrap: wrap;
 }
 ul li {
- list-style: none;
+  list-style: none;
   cursor: pointer;
 }
-.content{
+.content {
   text-align: center;
   padding-top: 150px;
   padding-bottom: 20px;
 }
-.content-title{
+.content-title {
   font-size: 60px;
-  
 }
-.content-main{
+.content-main {
   padding-bottom: 10px;
 }
-.search{
+.search {
   text-align: center;
 }
-.searchFeild{
+.searchFeild {
   padding: 10px 5px;
   border-top-left-radius: 20px;
   border-top-right-radius: 5px;
@@ -63,26 +63,26 @@ ul li {
 }
 
 .circle-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .circle {
-      width: 15px;
-      height: 15px;
-      background-color: wheat; 
-      border-radius: 50%;
-      margin: 10px; 
-    }
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: wheat;
+  border-radius: 50%;
+  margin: 10px;
+}
 /* Banner part styles */
-.titleContainer{
+.titleContainer {
   text-align: center;
 }
-.mainBox{
+.mainBox {
   padding: 50px 0;
 }
-.mainTitle{
+.mainTitle {
   font-size: 30px;
   padding-bottom: 10px;
 }
@@ -91,103 +91,24 @@ ul li {
   height: 110px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
   margin-top: 50px;
 }
-.logoImage{
-  height: 80px;
-  width: 80px;
+.imgContainer {
+  display: grid;
+  text-align: center;
+}
+.logoImage {
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   background-color: #6c6c6c;
 }
-.logoTitle{
-text-align: center;
-}
-
-
-
-
-
-
-
-
-
-.banner-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 120px;
-  padding-right: 135px;
-  gap: 150px;
-  margin-bottom: 100px;
-}
-
-.banner-title {
-  color: #3a3a3a;
-  font-size: 3rem;
-}
-.banner-title-description {
-  margin: 16px 0;
-}
-.btn-banner {
-  background: #e02c6d;
-  border-radius: 41px;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-}
-/* Logo styles */
-/* -------------------
-    Popular collection styles
-    ------------------------------ */
-.main-title {
+.logoTitle {
   text-align: center;
-  margin: 70px 0;
-}
-.mn {
-  padding: 10px 150px;
-}
-.items {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-.item {
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-  padding: 16px;
-}
-.item-img {
-  width: 100%;
-}
-.item-title,
-.price {
-  margin: 10px 0;
-  color: #18191f;
-}
-.item-title {
-  font-size: 28px;
-}
-.price {
-  font-size: 24px;
-}
-.filled {
-  color: #fb8200;
-  font-size: 11px;
-}
-.item-description {
-  color: #787885;
-  font-size: 14px;
-  margin-top: 10px;
-  padding-right: 119px;
-}
-.see-more {
-  text-align: right;
-  margin-top: 50px;
-  color: #e02c6d;
-  font-weight: 700;
+  padding-top: 20px;
 }
 
 .feature {
@@ -195,7 +116,7 @@ text-align: center;
   margin: 0 auto;
   align-items: center;
   gap: 90px;
-  padding: 100px 135px;
+  padding: 70px 50px;
 }
 .feature img {
   height: 270px;
@@ -205,7 +126,7 @@ text-align: center;
   font-size: 30px;
   margin-bottom: 15px;
 }
-.cont {
+.featureContainer {
   padding-right: 50px;
 }
 .feature-desc {
@@ -213,10 +134,15 @@ text-align: center;
   margin-bottom: 15px;
 }
 .feature-btn {
-  background: #e02c6d;
-  padding: 10px 24px;
+  background: #242223;
+  padding: 10px 28px;
   border: none;
   color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 15px;
+  border: 0;
 }
 
 /* Responsive part */
