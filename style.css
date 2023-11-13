@@ -60,6 +60,7 @@ ul li {
   border-bottom-right-radius: 15px;
   border: 0;
   margin-bottom: 20px;
+  width: 150px;
 }
 
 .circle-container {
@@ -251,8 +252,7 @@ img {
   
 }
 
-
-.inputAll {
+.inputAll{
   width: 600px;
   padding: 10px;
   margin-bottom: 15px;
@@ -274,6 +274,71 @@ button {
 }
 .btn{
   text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #000000c8;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.footer-section p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+footer i{
+  padding: 10px 0;
+}
+.instragram-icons div{
+display: flex;
+gap: 20px;
+padding: 5px;
+}
+.instragram-icons i{
+  width: 100px;
+}
+
+
+input {
+  padding: 8px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonFooter {
+  background-color: rgba(255, 255, 0, 0.83);
+  color: whitesmoke;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
 }
 
 /* Responsive part */
