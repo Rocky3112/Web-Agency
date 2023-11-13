@@ -152,7 +152,7 @@ ul li {
 .creativeTitle{
   font-size: 40px;
 }
-.container {
+.containerBox{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   margin: 30px 0;
@@ -218,5 +218,24 @@ img {
   font-size: 30px;
   padding: 30px 0;
 }
+
+/*  */
+.projectSection {
+  height: 140px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.888)), url('./images/laptopkeyboard.jpeg') center/cover;
+  color: #fff;
+  align-items: center;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 
 /* Responsive part */
